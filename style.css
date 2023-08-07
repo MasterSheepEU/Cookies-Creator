@@ -1,0 +1,96 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  font-family: Lato, sans-serif;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  padding: clamp(20px, 5vw, 50px) 20px 10px;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+span {
+  font-weight: 700;
+}
+
+.input-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding-bottom: 10px;
+}
+
+input {
+  height: 30px;
+  box-shadow: 0px -3px 4px 0px #0000005e;
+  padding-left: 5px;
+  border: none;
+}
+
+.btn-container {
+  width: 12%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 20px;
+  background: #006c67;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:nth-of-type(1) {
+  padding: 0 15px;
+}
+
+.cookies-result {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.cookie-card {
+  position: relative;
+  width: 47%;
+  box-shadow: 0px -3px 4px 0px #0000005e;
+  padding-left: 7px;
+  background: #ffffff;
+  border-radius: 5px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cookie-card button {
+  padding: 1px;
+  position: absolute;
+  margin: 0;
+  top: 7%;
+  left: 87%;
+  background: #dc143c;
+  width: 10%;
+}
